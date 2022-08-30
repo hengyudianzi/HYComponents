@@ -1,0 +1,52 @@
+{
+  "name": "HYComponents",
+  "version": "0.1.0",
+  "summary": "A short description of HYComponents.",
+  "swift_versions": "5.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hengyudianzi/HYComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hengyudianzi": "sdhy_dz@163.com"
+  },
+  "source": {
+    "git": "https://github.com/hengyudianzi/HYComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "HYComponents/Classes/**/*",
+  "resource_bundles": {
+    "HYComponents": [
+      "HYComponents/Classes/Resource/*"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+      "~>1.1.0"
+    ],
+    "Alamofire": [
+      "~>4.9.1"
+    ],
+    "CLToast": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "HandyJSON": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "PGDatePicker": [
+      "~>2.6.9"
+    ]
+  },
+  "swift_version": "5.0"
+}

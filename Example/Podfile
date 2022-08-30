@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HYComponents_Example' do
+  pod 'HYComponents', :path => '../'
+
+  target 'HYComponents_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
