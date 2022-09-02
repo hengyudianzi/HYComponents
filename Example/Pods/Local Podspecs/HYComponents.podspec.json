@@ -21,6 +21,11 @@
   },
   "static_framework": true,
   "source_files": "HYComponents/Classes/**/*",
+  "resource_bundles": {
+    "HYComponents": [
+      "HYComponents/Assets/*.xcassets"
+    ]
+  },
   "frameworks": [
     "UIKit",
     "Foundation"

@@ -35,9 +35,9 @@ TODO: 掌上公交所有的组件库.
 #  s.resources = ['HYComponents/Classes/Res/*']
 #/Users/sdch/Desktop/HYProject/Modules/HYComponents/HYComponents/Classes/Res
 
-#  s.resource_bundles = {
-#    'HYComponents' => ['HYComponents/Assets/*']
-#  }
+  s.resource_bundles = {
+    'HYComponents' => ['HYComponents/Assets/*.xcassets']
+  }
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'Foundation'
   s.dependency  'Masonry','~>1.1.0'

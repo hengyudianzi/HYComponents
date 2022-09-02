@@ -17,7 +17,8 @@
     NSString *bundleName = [dic objectForKey:@"CFBundleExecutable"];
     NSInteger scale = [UIScreen mainScreen].scale;
     NSString *imageName = [NSString stringWithFormat:@"%@@%zdx", name,scale];
-    NSString *bundleNamePath = @"ImagesRes.bundle";//[NSString stringWithFormat:@"%@.bundle", bundleName];
+//    NSString *bundleNamePath = @"Bundle.bundle";//
+    NSString *bundleNamePath = [NSString stringWithFormat:@"%@.bundle", bundleName];
 
     //路径
     NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"/%@",bundleNamePath]];
@@ -31,7 +32,9 @@
     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
     NSDictionary *dic = currentBundle.infoDictionary;
     NSString *bundleName = [dic objectForKey:@"CFBundleExecutable"];
-    NSString *bundleNamePath = @"ImagesRes.bundle";//[NSString stringWithFormat:@"%@.bundle", bundleName];
+//    NSString *bundleNamePath = @"ImagesRes.bundle";//[NSString stringWithFormat:@"%@.bundle", bundleName];
+    NSString *bundleNamePath = [NSString stringWithFormat:@"%@.bundle", bundleName];
+
 
     //路径
     NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"/%@",bundleNamePath]];
