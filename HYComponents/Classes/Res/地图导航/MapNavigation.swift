@@ -9,6 +9,27 @@
 import UIKit
 import MapKit
 
+
+//1、继承之后 调用方法
+//    MapNavigation.showMapsAlert(self, targetLat: 116.0, targetLong: 39.9, targetName: "北京")
+//
+//2、需要配置info.plist 的 LSApplicationQueriesSchemes
+//
+//<array>
+//    <string>uppaysdk</string>
+//    <string>uppaywallet</string>
+//    <string>uppayx1</string>
+//    <string>uppayx2</string>
+//    <string>uppayx3</string>
+//    <string>银行 APPScheme1</string>
+//    <string>银行 APPScheme2</string>
+//    <string>银行 APPScheme3</string>
+//    <string>comgooglemaps</string>
+//    <string>iosamap</string>
+//    <string>qqmap</string>
+//    <string>baidumap</string>
+//</array>
+
 public struct MapNavigation {
     
     ///  打开第三方地图alert (已检测是否安装第三方地图 未安装不在弹出视图展示 火星坐标系)

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 掌上公交所有的组件库.
                        DESC
 
   s.homepage         = 'https://github.com/hengyudianzi/HYComponents'
@@ -27,22 +27,19 @@ TODO: Add long description of the pod here.
   s.author           = { 'hengyudianzi' => 'sdhy_dz@163.com' }
   s.source           = { :git => 'https://github.com/hengyudianzi/HYComponents.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.platform     = :ios, "13.0"
   s.ios.deployment_target = '13.0'
-
+  s.static_framework = true
   s.source_files = 'HYComponents/Classes/**/*'
-  
-#  s.resource = ['HYComponents/Classes/**/*{xib,xcassets,storyboard}']
-#  s.resource_bundles = {
-#    'HYComponents' => ['HYComponents/Assets/*.png']
-#  }
+  s.resource = ['HYComponents/Classes/Res/ImagesRes.bundle']
+#  s.resources = ['HYComponents/Classes/Res/*']
+#/Users/sdch/Desktop/HYProject/Modules/HYComponents/HYComponents/Classes/Res
 
-    s.resource_bundles = {
-      'HYComponents' => ['HYComponents/Classes/Resource/*']
-    }
+#  s.resource_bundles = {
+#    'HYComponents' => ['HYComponents/Assets/*']
+#  }
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit', 'Foundation'
   s.dependency  'Masonry','~>1.1.0'
   s.dependency  'Alamofire','~>4.9.1'
   s.dependency  'CLToast'

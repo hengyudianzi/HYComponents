@@ -1,9 +1,9 @@
 {
   "name": "HYComponents",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of HYComponents.",
   "swift_versions": "5.0",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: 掌上公交所有的组件库.",
   "homepage": "https://github.com/hengyudianzi/HYComponents",
   "license": {
     "type": "MIT",
@@ -14,17 +14,20 @@
   },
   "source": {
     "git": "https://github.com/hengyudianzi/HYComponents.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "13.0"
   },
+  "static_framework": true,
   "source_files": "HYComponents/Classes/**/*",
-  "resource_bundles": {
-    "HYComponents": [
-      "HYComponents/Classes/Resource/*"
-    ]
-  },
+  "resources": [
+    "HYComponents/Classes/Res/ImagesRes.bundle"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
   "dependencies": {
     "Masonry": [
       "~>1.1.0"

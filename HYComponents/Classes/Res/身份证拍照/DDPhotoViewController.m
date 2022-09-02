@@ -348,6 +348,7 @@
     
     [self.view addSubview:self.tishiLabel];
     
+    
     [self.topView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.equalTo(self.view);
         make.top.equalTo(self.view.mas_safeAreaLayoutGuideTop);

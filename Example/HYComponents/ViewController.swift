@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     
     var list = [
         "版本更新",
-        "二维码生成",
         "身份证拍照",
+        "二维码生成",
         "吐司",
         "日期选择",
         "地图导航（各大地图)",
