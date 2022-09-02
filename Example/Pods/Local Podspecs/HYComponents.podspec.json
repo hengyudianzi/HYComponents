@@ -21,9 +21,6 @@
   },
   "static_framework": true,
   "source_files": "HYComponents/Classes/**/*",
-  "resources": [
-    "HYComponents/Classes/Res/ImagesRes.bundle"
-  ],
   "frameworks": [
     "UIKit",
     "Foundation"

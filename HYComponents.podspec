@@ -31,7 +31,7 @@ TODO: 掌上公交所有的组件库.
   s.ios.deployment_target = '13.0'
   s.static_framework = true
   s.source_files = 'HYComponents/Classes/**/*'
-  s.resource = ['HYComponents/Classes/Res/ImagesRes.bundle']
+#  s.resource = ['HYComponents/Classes/Res/ImagesRes.bundle']
 #  s.resources = ['HYComponents/Classes/Res/*']
 #/Users/sdch/Desktop/HYProject/Modules/HYComponents/HYComponents/Classes/Res
 
