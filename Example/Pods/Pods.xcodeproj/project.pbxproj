@@ -736,7 +736,6 @@
 		92C58CC4E8802684ADFF08881D4642CC /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
 		9308D3DDE3967F1D0FF9BF3318B88972 /* HandyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyJSON.debug.xcconfig; sourceTree = "<group>"; };
 		93B901699F721FB2914F1BED13C960C3 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
-		942BBA33D5FDBDF073EE3274CBB283E5 /* ImagesRes.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ImagesRes.bundle; path = HYComponents/Classes/Res/ImagesRes.bundle; sourceTree = "<group>"; };
 		94C562B5350C93079E728648AE6222B8 /* ColorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorConfig.swift; sourceTree = "<group>"; };
 		94F81873A9FDE47BFE509998E01787DF /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		96D235E8F58A933F179DA5367977DE9F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
@@ -1599,7 +1598,6 @@
 		ADB586919C205421F819D8C9C9E8C432 /* HYComponents */ = {
 			isa = PBXGroup;
 			children = (
-				942BBA33D5FDBDF073EE3274CBB283E5 /* ImagesRes.bundle */,
 				FBB9C0009D1E003A960650AF58B69927 /* Config */,
 				8B4148C3EEFF654D1459DF44D82AE153 /* Extension */,
 				8824E8AD2920B534E0ED0A58593E70A7 /* Pod */,
