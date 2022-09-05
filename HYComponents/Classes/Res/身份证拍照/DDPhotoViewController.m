@@ -98,7 +98,7 @@
         _cancleButton = [UIButton buttonWithType:UIButtonTypeCustom];
         _cancleButton.frame = CGRectMake(ScreenWidth-40, 10, 30, 30);
         
-        [_cancleButton setImage: [GetResourcePng getBundleImageWithName:@"cancelPhoto"] forState:(UIControlStateNormal)];
+        [_cancleButton setImage: [GetResourcePng getBundleImg:@"cancelPhoto"] forState:(UIControlStateNormal)];
         [_cancleButton addTarget:self action:@selector(cancle) forControlEvents:UIControlEventTouchUpInside];
     }
     return  _cancleButton ;
@@ -143,8 +143,8 @@
     if (_PhotoButton == nil) {
         _PhotoButton = [UIButton buttonWithType:UIButtonTypeCustom];
         _PhotoButton.frame = CGRectMake(ScreenWidth/2.0-30, 10, 60, 60);
-        [_PhotoButton setImage:[GetResourcePng getBundleImageWithName:@"photograph"] forState: UIControlStateNormal];
-        [_PhotoButton setImage:[GetResourcePng getBundleImageWithName:@"photograph_Select"] forState:UIControlStateNormal];
+        [_PhotoButton setImage:[GetResourcePng getBundleImg:@"photograph"] forState: UIControlStateNormal];
+        [_PhotoButton setImage:[GetResourcePng getBundleImg:@"photograph_Select"] forState:UIControlStateNormal];
         [_PhotoButton addTarget:self action:@selector(shutterCamera) forControlEvents:UIControlEventTouchUpInside];
     }
     return _PhotoButton;
@@ -192,7 +192,7 @@
     if (_kuangImgView == nil) {
         _kuangImgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0,  226, 360)];
         _kuangImgView.center = self.view.center;
-        _kuangImgView.image = [GetResourcePng getBundleImageWithName:@"camera_card_border"];
+        _kuangImgView.image = [GetResourcePng getBundleImg:@"camera_card_border"];
 //        _kuangImgView.layer.borderWidth = 1;
 //        _kuangImgView.layer.borderColor = UIColor.whiteColor.CGColor;
     }
@@ -215,7 +215,7 @@
             default:
                 break;
         }
-        _iconImgView.image = [GetResourcePng getBundleImageWithName:@"imageName"];
+        _iconImgView.image = [GetResourcePng getBundleImg:imageName];
     }
     return _iconImgView;
 }

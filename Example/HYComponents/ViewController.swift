@@ -15,10 +15,8 @@ class ViewController: UIViewController {
     
     
     lazy var ticketCalendarView:CFTicketCalendarView = {
-        let bundle = GetResourcePng.getCFBundle()
+        let bundle = GetResourcePng.getCFBundle_New()
         return bundle.loadNibNamed("CFTicketCalendarView", owner: nil, options: nil)?.first as! CFTicketCalendarView
-//        let views = Bundle.main.loadNibNamed("CFTicketCalendarView", owner: nil, options: nil)?.first as! CFTicketCalendarView
-//        return views
     }()
 
     

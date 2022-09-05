@@ -1,7 +1,7 @@
 {
   "name": "HYComponents",
-  "version": "0.1.1",
-  "summary": "A short description of HYComponents.",
+  "version": "0.1.3",
+  "summary": "各个公共组件的库的封装",
   "swift_versions": "5.0",
   "description": "TODO: 掌上公交所有的组件库.",
   "homepage": "https://github.com/hengyudianzi/HYComponents",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/hengyudianzi/HYComponents.git",
-    "tag": "0.1.1"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "13.0"
@@ -23,7 +23,7 @@
   "source_files": "HYComponents/Classes/**/*",
   "resource_bundles": {
     "HYComponents": [
-      "HYComponents/Assets/*.xcassets"
+      "HYComponents/Assets/*"
     ]
   },
   "frameworks": [

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYComponents'
-  s.version          = '0.1.2'
-  s.summary          = 'A short description of HYComponents.'
+  s.version          = '0.1.3'
+  s.summary          = '各种组件封装'
   s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -36,10 +36,10 @@ TODO: 掌上公交所有的组件库.
 #/Users/sdch/Desktop/HYProject/Modules/HYComponents/HYComponents/Classes/Res
 
   s.resource_bundles = {
-    'HYComponents' => ['HYComponents/Assets/*.xcassets']
+    'HYComponents' => ['HYComponents/Assets/*']
   }
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation'
+  s.frameworks = 'UIKit', 'Foundation'
   s.dependency  'Masonry','~>1.1.0'
   s.dependency  'Alamofire','~>4.9.1'
   s.dependency  'CLToast'

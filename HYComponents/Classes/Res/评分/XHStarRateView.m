@@ -96,7 +96,7 @@ typedef void(^completeBlock)(CGFloat currentScore);
     view.backgroundColor = [UIColor clearColor];
     for (NSInteger i = 0; i < self.numberOfStars; i ++)
     {
-        UIImageView *imageView = [[UIImageView alloc] initWithImage:[GetResourcePng getBundleImageWithName:imageName]];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:[GetResourcePng getBundleImg:imageName]];
         imageView.frame = CGRectMake(i * self.bounds.size.width / self.numberOfStars, 0, self.bounds.size.width / self.numberOfStars, self.bounds.size.height);
         imageView.contentMode = UIViewContentModeScaleAspectFit;
         [view addSubview:imageView];

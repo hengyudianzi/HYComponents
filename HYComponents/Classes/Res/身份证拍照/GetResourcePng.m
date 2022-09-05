@@ -46,4 +46,23 @@
     return  resource_bundle;
 }
 
++(NSBundle *)getCFBundle_New{
+    
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"HYComponents" ofType:@"bundle"];
+    NSLog(@"bundlePath --- :%@",bundlePath);
+    NSBundle *resource_bundle = [NSBundle bundleWithPath:bundlePath];
+    return  resource_bundle;
+}
+
+
++(UIImage *)getBundleImg:(NSString *)imageName{
+    
+    NSBundle *resource_bundle = [self getCFBundle_New];
+    UIImage *imge = [UIImage imageNamed:imageName inBundle:resource_bundle withConfiguration:nil];
+    if (imge == nil) {
+        imge = [UIImage imageNamed:imageName];
+    }
+    return  imge;
+}
+
 @end
