@@ -49,6 +49,6 @@ TODO: 掌上公交所有的组件库.
   s.dependency  'PGDatePicker','~>2.6.9'
   s.dependency  'YBPopupMenu'
 #  s.dependency  'BaiduMapKit'
-#  s.dependency  'BMKLocationKit','2.0.4'
+  s.dependency  'BMKLocationKit','2.0.4'
   s.dependency  'mob_smssdk'
 end
