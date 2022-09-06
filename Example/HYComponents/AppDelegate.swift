@@ -17,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        //对APP进行基本的配置
+        let _ = initBMKMapManager("wGUhOTkL97yld2rNB00jk37TMuk5HpjG")
+        
         let channel = McMcTabBarViewController()
         
         

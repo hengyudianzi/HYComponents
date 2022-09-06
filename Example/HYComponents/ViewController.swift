@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         "地图导航（各大地图)",
         "评分",
         "网络检测",
-        "",
+        "地图选点",
         "",
         "",
         "",
@@ -98,6 +98,10 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
             
             removeUserDefaultsCF("isFrist")
             checkNetwork()
+        case 8:
+            //地图选点
+            selectPoint()
+            break
         default:
             break
         }
@@ -164,6 +168,17 @@ extension ViewController{
             }
 
         }
+    }
+    
+    func selectPoint() {
+
+        let channel = SelectMapPlaceViewController(nibName: "SelectMapPlaceViewController", bundle: GetResourcePng.getCFBundle_New())
+        channel.block = {(poiInfo)->Void in
+                
+            showToast("address ---- :\(poiInfo.address)")
+            
+        }
+        self.navigationController?.pushViewController(channel, animated: true)
     }
 }
 

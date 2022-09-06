@@ -137,7 +137,7 @@ class CLToastUtils: Operation {
 extension CLToastUtils: CAAnimationDelegate {
     func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
         if flag {
-            UIView.animate(withDuration: 0.5, delay: TimeInterval(self.duration), options: UIView.AnimationOptions.allowUserInteraction, animations: {
+            UIView.animate(withDuration: 0.5, delay: TimeInterval(self.duration), options: UIViewAnimationOptions.allowUserInteraction, animations: {
                 if self.showSuccessToast == nil {
                     self.textToastView.alpha = 0
                 } else {

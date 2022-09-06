@@ -11,6 +11,7 @@
 #endif
 
 #import "Header.h"
+#import "MobTechConfig.h"
 #import "PlusAnimate.h"
 #import "CYBadgeView.h"
 #import "CYButton.h"

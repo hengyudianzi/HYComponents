@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYComponents'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '各种组件封装'
   s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
@@ -42,10 +42,13 @@ TODO: 掌上公交所有的组件库.
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency  'Masonry','~>1.1.0'
   s.dependency  'Alamofire','~>4.9.1'
-  s.dependency  'CLToast'
+  s.dependency  'CLToast','~>1.0.3'
   s.dependency  'SnapKit'
   s.dependency  'HandyJSON'
   s.dependency  'MJRefresh'
   s.dependency  'PGDatePicker','~>2.6.9'
-
+  s.dependency  'YBPopupMenu'
+#  s.dependency  'BaiduMapKit'
+#  s.dependency  'BMKLocationKit','2.0.4'
+  s.dependency  'mob_smssdk'
 end

@@ -41,8 +41,8 @@ class CLImageToast: UIView {
     }
     
     func initEventHendle() {
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(aNotification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(aNotification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(aNotification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(aNotification:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
 
         ScreenTools.share.screenClouse = { [weak self] (orientation) in
             self?.setNeedsLayout()
@@ -56,7 +56,7 @@ class CLImageToast: UIView {
         guard let info = userInfo else {
             return
         }
-        let aValue = info[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue
+        let aValue = info[UIKeyboardFrameEndUserInfoKey] as? NSValue
         let keyboardRect = aValue?.cgRectValue
         let height = keyboardRect?.size.height
         self.keyBoardHeight = height ?? 0

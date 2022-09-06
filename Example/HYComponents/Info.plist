@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>掌上公交组件</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -39,6 +41,14 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>我们需要通过您的相机来拍摄照片和视频，来用于意见反馈功能数据提交，是否同意？</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>我们需要获取您的位置来获取周边的商户信息，是否同意？</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>我们需要访问您的地理位置来进行乘车路线搜索，是否同意？</string>
+	<key>NSLocationUsageDescription</key>
+	<string>我们需要访问您的位置，来进行乘车路线搜索，是否同意？</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>我们需要访问您的位置来进行乘车路线搜索，是否同意？</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>我们需要通过您的麦克风来拍摄视频，用于意见反馈功能，是否同意？</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>

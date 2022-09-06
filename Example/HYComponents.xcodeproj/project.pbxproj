@@ -189,12 +189,23 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F96A642F28C6EF2B00351AEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		607FACCF1AFB9204008FA782 /* HYComponents_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HYComponents_Example" */;
 			buildPhases = (
 				C26A40F235632553E83D223C /* [CP] Check Pods Manifest.lock */,
+				F96A642F28C6EF2B00351AEA /* Headers */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
@@ -331,6 +342,7 @@
 				"${BUILT_PRODUCTS_DIR}/PGDatePicker/PGDatePicker.framework",
 				"${BUILT_PRODUCTS_DIR}/PGPickerView/PGPickerView.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YBPopupMenu/YBPopupMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -342,6 +354,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGDatePicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGPickerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBPopupMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,6 +566,7 @@
 			baseConfigurationReference = FF6064C42804A1C747D558BC /* Pods-HYComponents_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = 8L9U3ZMLWH;
 				INFOPLIST_FILE = HYComponents/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -570,6 +584,7 @@
 			baseConfigurationReference = E476D86AAE6A1659E8C56A2F /* Pods-HYComponents_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = 8L9U3ZMLWH;
 				INFOPLIST_FILE = HYComponents/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
