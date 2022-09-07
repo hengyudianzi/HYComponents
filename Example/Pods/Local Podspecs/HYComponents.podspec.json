@@ -55,6 +55,9 @@
     "YBPopupMenu": [
 
     ],
+    "BaiduMapKit/Map": [
+
+    ],
     "BMKLocationKit": [
       "2.0.4"
     ],
