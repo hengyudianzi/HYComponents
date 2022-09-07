@@ -1,14 +1,10 @@
 PODS:
   - Alamofire (4.9.1)
-  - BaiduMapKit/Base (6.5.3)
-  - BaiduMapKit/Map (6.5.3):
-    - BaiduMapKit/Base
   - BMKLocationKit (2.0.4)
   - CLToast (1.0.3)
   - HandyJSON (5.0.2)
   - HYComponents (0.1.4):
     - Alamofire (~> 4.9.1)
-    - BaiduMapKit/Map
     - BMKLocationKit (= 2.0.4)
     - CLToast (~> 1.0.3)
     - HandyJSON
@@ -35,7 +31,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
-    - BaiduMapKit
     - BMKLocationKit
     - CLToast
     - HandyJSON
@@ -54,11 +49,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  BaiduMapKit: 54623026cd183511b1525a448094211d4fd5d646
   BMKLocationKit: 688d8e1194980b96fc9a6585c0eb42e62fbaf780
   CLToast: 2e88c737d01eb44316e21ccc9ac485df8f5b35bf
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
-  HYComponents: 12d22104b2141f86112c43c233546a5e85d211a6
+  HYComponents: c081d85664f547700259babb4c0c1894b6229602
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   mob_smssdk: 7dd38a9087980f9dfd74b9b25d87db36b38496c7

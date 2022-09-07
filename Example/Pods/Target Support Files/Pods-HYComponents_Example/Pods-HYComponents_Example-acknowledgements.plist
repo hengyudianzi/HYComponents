@@ -74,16 +74,6 @@ SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2015 BaiduLBS</string>
-			<key>License</key>
-			<string>Copyright</string>
-			<key>Title</key>
-			<string>BaiduMapKit</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
 			<string>MIT License
 
 Copyright (c) 2018 Darren-chenchen

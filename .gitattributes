@@ -1,1 +1,2 @@
 “BaiduMapAPI_Map“ filter=lfs diff=lfs merge=lfs -text
+“BaiduMapAPI_Map.framework“ filter=lfs diff=lfs merge=lfs -text
